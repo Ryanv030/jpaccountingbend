@@ -1,0 +1,50 @@
+.header {
+  background-color: #51773a;
+  height: 20vh;
+
+  @media (max-width: 400px) {
+    height: 18vh;
+  }
+
+  &__logo {
+    height: 20vh;
+
+    @media (max-width: 400px) {
+      height: 10%;
+    }
+
+    @media (max-width: 374px) {
+      height: 7%;
+    }
+
+    @media (min-height: 1000px) {
+      margin-right: 2rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.9;
+    }
+  }
+
+  &__info {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+
+    @media (min-height: 1000px) {
+      display: none;
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.offset-md-3 {
+  @media (min-height: 1000px) {
+    margin: 0 auto;
+  }
+}
