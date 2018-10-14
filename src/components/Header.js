@@ -12,7 +12,7 @@ const Header = () => {
             </div>
             <div className="col-md-3 d-none d-md-flex flex-column align-items-center justify-content-center">
               <a href="tel:+1-541-318-0663" className="header__info pb-2">
-                Phone: 318-0663
+                Phone: 541-318-0663
               </a>
               <div className="header__info pb-2">Email: info@JPABS.net</div>
               <div className="header__info">Hours: Mon-Fri 8am-5pm</div>
