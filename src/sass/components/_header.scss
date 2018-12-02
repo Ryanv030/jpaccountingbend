@@ -1,25 +1,29 @@
 .header {
-  background-color: #51773a;
-  height: 20vh;
-
-  @media (max-width: 400px) {
-    height: 18vh;
-  }
+  background-color: #fff;
+  box-shadow: 0rem 0rem 1rem 0.1rem rgba(0, 0, 0, 0.5);
 
   &__logo {
-    height: 20vh;
+    width: 200px;
+    padding: 10px 0;
+    margin-left: 1rem;
 
-    @media (max-width: 400px) {
-      height: 10%;
-    }
+    // // Small devices (landscape phones, 576px and up)
+    // @media (min-width: 576px) {
+    //   width: 50%;
+    // }
 
-    @media (max-width: 374px) {
-      height: 7%;
-    }
+    // // Medium devices (tablets, 768px and up)
+    // @media (min-width: 768px) {
+    // }
 
-    @media (min-height: 1000px) {
-      margin-right: 2rem;
-    }
+    // // Large devices (desktops, 992px and up)
+    // @media (min-width: 992px) {
+    //   width: 40%;
+    // }
+
+    // // Extra large devices (large desktops, 1200px and up)
+    // @media (min-width: 1200px) {
+    // }
 
     &:hover {
       cursor: pointer;
@@ -46,5 +50,16 @@
 .offset-md-3 {
   @media (min-height: 1000px) {
     margin: 0 auto;
+  }
+}
+
+.header__nav-link {
+  font-size: 1.75rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
   }
 }
